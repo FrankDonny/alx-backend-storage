@@ -1,1 +1,2 @@
+// delete all occurences
 db.school.deleteMany({name: "Holberton school"})
