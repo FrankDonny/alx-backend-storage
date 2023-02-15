@@ -15,7 +15,7 @@ if __name__ == "__main__":
                 {"method": f"{method}", "path": "/status"})
     print(f"{collection.count_documents({})} logs")
     print(
-        f"Methods:\n"
+        f"Methods:\n\t"
         f"{totalCount[0]}\n\t"
         f"{totalCount[1]}\n\t{totalCount[2]}\n\t"
         f"{totalCount[3]}\n\t{totalCount[4]}")
