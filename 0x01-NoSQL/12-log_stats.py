@@ -14,9 +14,10 @@ if __name__ == "__main__":
             statsCheck = collection.count_documents(
                 {"method": f"{method}", "path": "/status"})
     print(f"{collection.count_documents({})} logs")
-    print(
-        f"Methods:\n\t"
-        f"{totalCount[0]}\n\t"
-        f"{totalCount[1]}\n\t{totalCount[2]}\n\t"
-        f"{totalCount[3]}\n\t{totalCount[4]}")
+    print("Methods:")
+    print(f"\t{totalCount[0]}")
+    print(f"\t{totalCount[1]}")
+    print(f"\t{totalCount[2]}")
+    print(f"\t{totalCount[3]}")
+    print(f"\t{totalCount[4]}")
     print(f"{statsCheck} status check")
